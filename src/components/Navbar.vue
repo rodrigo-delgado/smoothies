@@ -3,9 +3,7 @@
         <nav class="nav-extended indigo darken-2">
             <div class="nav-content">
                 <router-link to="">
-                    <span class="nav-title">
-                        Smothies
-                    </span>
+                    <span class="nav-title">Smothies</span>
                 </router-link>
                 <a href="" class="btn-floating btn-large halfway-fab green">
                     <router-link to="">
@@ -27,6 +25,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+.navbar nav{
+    padding: 0 20px;
+}
 </style>
